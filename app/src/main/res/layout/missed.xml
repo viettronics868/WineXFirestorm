@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:id="@+id/list"
+        android:layout_alignParentTop="true" android:layout_above="@+id/clear" />
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/clear"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Clear">
+
+    </Button>
+
+    <com.startapp.android.publish.banner.bannerstandard.BannerStandard
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+    
+</RelativeLayout>
